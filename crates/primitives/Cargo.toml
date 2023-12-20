@@ -37,7 +37,7 @@ serde = { version = "1.0", features = ["derive", "rc"], optional = true }
 hex = "0.4"
 
 [features]
-default = ["std", "c-kzg"]
+default = ["std", "c-kzg", "optimism"]
 std = [
     "alloy-primitives/std",
     "alloy-rlp/std",

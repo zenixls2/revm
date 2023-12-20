@@ -35,7 +35,7 @@ anyhow = "1.0.75"
 criterion = "0.5"
 
 [features]
-default = ["std", "c-kzg", "secp256k1"]
+default = ["std", "c-kzg", "serde", "memory_limit", "optional_eip3607", "optional_block_gas_limit", "optional_no_base_fee", "secp256k1", "optimism"]
 std = ["revm-interpreter/std", "revm-precompile/std"]
 serde = ["dep:serde", "dep:serde_json", "revm-interpreter/serde"]
 arbitrary = ["revm-interpreter/arbitrary"]
